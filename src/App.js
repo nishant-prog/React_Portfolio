@@ -1,8 +1,6 @@
-import React , { useState } from "react";
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
 import { BrowserRouter } from "react-router-dom";
-import Navbar from "../src/component/Navbar/navbar";
 import Home from "./component/Home/home";
 import Skills from "./component/Skills/skills";
 import Education from "./component/Education/education";
