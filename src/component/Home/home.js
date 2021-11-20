@@ -21,7 +21,7 @@ const Home = () => {
 
 
         <section id="home" className="home-wrapper">
-            <div className="image"><img className="backimage" src="/assets/background.png" ></img></div>
+            <div className="image"><img alt="backgroundImg" className="backimage" src="/assets/background.png" ></img></div>
             <div className="bio-info">
             <div className="bio-image">
                 <img className="bioimage" src="/assets/profile4.jpeg" alt="bim"></img>
@@ -65,13 +65,13 @@ const Home = () => {
                         </a>
                     </div>
                     <div className="social-link">
-                        <a class="textColor" href="https://twitter.com/xxxnishantxxx" target="_blank">
+                        <a class="textColor" href="https://twitter.com/xxxnishantxxx" target="_blank" rel="noreferrer">
                         <i class="fab fa-twitter"></i>
                            Twitter
                         </a>
                     </div>
                     <div className="">
-                    <img className="barcode" src="/assets/barcode.gif" ></img>
+                    <img alt="barcode" className="barcode" src="/assets/barcode.gif" ></img>
                     </div>
                     
                 </div>
