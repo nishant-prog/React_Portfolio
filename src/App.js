@@ -8,6 +8,7 @@ import Skills from "./component/Skills/skills";
 import Education from "./component/Education/education";
 import Experience from "./component/Experience/experience";
 import About from "./component/About/about";
+
 function shoot() {
   var element = document.body;
    element.classList.toggle("dark-mode");
