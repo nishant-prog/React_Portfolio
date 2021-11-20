@@ -1,0 +1,180 @@
+.home-wrapper {
+    display: flex;
+    width: 100%;
+    /* height: 80vh; */
+    /* margin: 100px 0; */
+}
+.bio-info {
+    /* flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    align-items: flex-start; */
+    /* background-color: rgb(0,0,0); Fallback color */
+  /* background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  /* border: 3px solid #f1f1f1; */
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  height: 260px;
+  /* text-align: center; */
+  justify-content: flex-start;
+}
+.bio-image {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 60px;
+    border-style: 2px white solid;
+}
+
+.name {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+}
+.designation {
+    font-size: 22px;
+    font-weight: 500px;
+    margin-bottom: 5px;
+}
+.organization {
+    font-size: 16px;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+.socials {
+    margin: 30px 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.socials .social-link {
+    padding-right: 30px;
+    
+}
+
+.socials .social-link a {
+    font-size: 16px;
+    color: var(--text-color);
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.socials .social-link a i {
+    font-size: 28px;
+}
+
+.socials .social-link a i:hover,
+.socials .social-link a:hover {
+    color: var(--success-color);
+}
+
+
+.skills-wrapper {
+    display: flex;
+    width: 100%;
+    /* height: 80vh; */
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+.skills-title {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    align-items: center;
+}
+
+.skills-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-container .icon-container i {
+    font-size: 54px;
+    color: var(--primary-color)
+}
+
+.skill-container .icon-container i:hover {
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.skill-container .skill-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+.image{
+
+  height:1100px;
+  width: 100%;
+    /* Add the blur effect */
+    filter: blur(1px);
+    -webkit-filter: blur(4px);
+    
+    /* Full height */
+    
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backimage {
+    height:1000px;
+  width: 100%;
+}
+.fab {
+    color:whitesmoke;
+}
+.bioimage {
+    border-radius: 60%;
+    border-style: solid;
+    height: 210px;
+    width: 22%;
+}
+.barcode {
+    height: 20px;
+    width: 10%;
+}
+.barcode {
+    
+    transition: transform .2s;
+    height: 30px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .barcode:hover {
+    -ms-transform: scale(4.5); /* IE 9 */
+    -webkit-transform: scale(4.5); /* Safari 3-8 */
+    transform: scale(4.5); 
+  }
+  .textColor {
+      color:lavenderblush;
+  }

@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background);
+}
+:root {
+  --primary-color: #30475e;
+  --text-color: #222831;
+  --background: #ffffff;
+  --secondary-color: #f05454;
+  --success-color: green;
+  box-sizing: border-box;
+}
+.separator-container {
+  display: flex;
+  justify-content: center;
+  margin: -10px 0 20px 0;
+  opacity: 0.2;
+  align-self: center;
+}
+
+.separator {
+  width: 30%;
+  height: 2px;
+  background-color: var(--secondary-color);
+}
+h2 {
+  font-size: 42px;
+  font-weight: bold;
+}
